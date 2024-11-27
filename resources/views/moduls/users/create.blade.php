@@ -8,7 +8,7 @@
         <div class="col">
             <div class="card">
                 <div class="card-body">
-                 <form action="" method="post">
+                <form action="{{ route('store')}}" method="post">
                     {{--este toquen @ es necesario para que la app sepa de donde viene--}}
                     @csrf
                     {{--vamos a reescribir el metodo para que entienda la ruta que es de un post--}}
